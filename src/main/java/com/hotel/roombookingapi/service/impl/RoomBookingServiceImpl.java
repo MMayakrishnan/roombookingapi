@@ -54,7 +54,6 @@ public class RoomBookingServiceImpl implements RoomBookingService{
 	@Autowired
 	RestTemplate restTemplate;
 	
-	
 	// queries booking table to see for the rooms booked on the date and provide list of room types that are available for the date
 	@Override
 	public Set<String> fetchAvailableRoomType(Date arrival, Date depature) {
